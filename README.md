@@ -8,7 +8,8 @@ Super simple log parser, utilizing JSONApi. Stores its data in MySQL for easy pa
 1.	Make sure JSONApi is installed and that a user is configured in JSONApiAuthentication.txt
 2.	Fill in the relevant details in logdaemon.php and logviewer.php (MySQL in both, replace example.com, admin and test with the domain to JSONApi, and the username/password you set in JSONApiAuthentication.txt in logdaemon.php)
 3.	Insert the database SQL into a database of your choosing. By default the SQL will insert it into minecraft_logs.
-4.	Profit!
+4.      Via SSH/Command line, run logdaemon.php in the background (maybe via screen?)
+5.	Profit!?
 
 ## Bugs
 
